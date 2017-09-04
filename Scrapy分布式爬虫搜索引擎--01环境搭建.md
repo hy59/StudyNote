@@ -14,7 +14,8 @@
 开发环境如下：
 1. 数据库-----mysql,redis,elasticsearch
 2. 开发环境-----anconda
-3. django==1.11.4  
+3. django==1.11.3
+4. scrapy==1.3.3  
 
 这次编写并没有使用IDE环境(pycharm)，而是在win平台上配置vscode来进行代码编写。再将代码部署到Linux。  
 具体的环境搭建随着学习步骤的进行再继续讲解，在这里只讲数据库mysql和使用anconda安装python开发环境(python2.7和python3.6)。
@@ -121,8 +122,10 @@ anconda默认的镜像地址在国外，访问速度慢，在国内目前可用�
      # 在命令行输入
      conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
      conda config --set show_channel_urls yes    
- 
-
+### **2.2.5 安装django和scrapy**
+在python36和python27环境使用conda命令安装django和scrapy:
+>`conda install django`  
+>`conda install scrapy`
 
     
 
